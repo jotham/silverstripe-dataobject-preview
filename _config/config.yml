@@ -1,0 +1,12 @@
+---
+Name: PreviewableDataObject
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+LeftAndMain:
+  extra_requirements_javascript:
+    - mysite/javascript/MyLeftAndMain.Preview.js
+PreviewableDataObject:
+  extensions:
+    - Versioned("Stage","Live")
