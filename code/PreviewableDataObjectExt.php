@@ -10,7 +10,6 @@ class PreviewableDataObjectExt extends Extension {
    }
 
    private function injectNavigatorAndPreview(&$form, &$fields){
-      tracef();
       $editForm = $fields->fieldByName('EditForm');
       //TODO: Do we need to verify we are in the right controller?
       $template = Controller::curr()->getTemplatesWithSuffix('_SilverStripeNavigator');

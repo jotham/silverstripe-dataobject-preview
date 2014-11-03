@@ -1,6 +1,6 @@
 <?PHP
 
-GridFieldDetailForm_ItemRequest::add_extension('PreviewableDataObjectExt');
+Object::add_extension('GridFieldDetailForm_ItemRequest', 'PreviewableDataObjectExt');
 
 // TODO: We should be able to do this through the YAML instead of this hack?
 $module_prefix = basename(__DIR__);

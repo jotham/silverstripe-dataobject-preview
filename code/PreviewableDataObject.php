@@ -35,6 +35,9 @@ class PreviewableDataObject extends DataObject implements CMSPreviewable {
    public function RelativeLink(){
       return '';
    }
+   public function AbsoluteLink() {
+      return $this->Link();
+   }
 
    private function getPreviewClasses(){
       $cls = $this->stat('preview_page');
