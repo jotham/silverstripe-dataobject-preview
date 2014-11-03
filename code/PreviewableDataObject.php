@@ -1,21 +1,5 @@
 <?PHP
 
-interface CanPreviewableDataObject {
-   /*
-    * Return the Link to display the PreviewableDataObject
-    *
-    * @param SiteTree $page First SiteTree object we found for this controller
-    * @param PreviewableDataObject $obj The object we want to display on the page
-    *
-    * @return string Link to route for displaying object
-    *
-    * Example:
-    *
-    * TODO: Provide a base class rather than an interface for convenience?
-    */
-   public function getPreviewAction(SiteTree $page, PreviewableDataObject $obj);
-}
-
 class PreviewableDataObject extends DataObject implements CMSPreviewable {
 
    /*
@@ -66,25 +50,3 @@ class PreviewableDataObject extends DataObject implements CMSPreviewable {
 
 }
 
-class PreviewableDataObjectExt extends Extension {
-
-   public function updateItemEditForm(&$form){
-      $fields = $form->Fields();
-      if( $this->owner->record instanceof PreviewableDataObject && !$fields->fieldByName('SilverStripeNavigator') ) {
-         $this->injectNavigatorAndPreview($form, $fields);
-      }
-   }
-
-   private function injectNavigatorAndPreview(&$form, &$fields){
-      $editForm = $fields->fieldByName('EditForm');
-      //TODO: Do we need to verify we are in the right controller?
-      $template = Controller::curr()->getTemplatesWithSuffix('_SilverStripeNavigator');
-      $navigator = new SilverStripeNavigator($this->owner->record);
-      $field = new LiteralField('SilverStripeNavigator', $navigator->renderWith($template));
-      $field->setAllowHTML(true);
-      $fields->push($field);
-      $form->addExtraClass('cms-previewable');
-      $form->removeExtraClass('cms-panel-padded center');
-   }
-
-}
