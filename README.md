@@ -1,6 +1,6 @@
-# Silverstripe 3.1 DataObject Side-by-side Preview
+# SilverStripe 3.1 DataObject Preview
 
-Activates (most) of the new Silverstripe 3.1 Side-by-side Preview functionality for use with DataObjects. 
+Activates (most) of the new Silverstripe 3.1 side-by-side preview functionality for use with DataObjects. 
 
 - http://doc.silverstripe.org/framework/en/reference/preview.
 
@@ -8,7 +8,7 @@ Activates (most) of the new Silverstripe 3.1 Side-by-side Preview functionality 
 
 ## Requirements
 
-Silverstripe 3.1 (Older versions lack the CMS support)
+Silverstripe 3.1
 
 ## Features
 
