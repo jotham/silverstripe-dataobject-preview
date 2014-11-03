@@ -10,10 +10,6 @@ Activates (most) of the new Silverstripe 3.1 side-by-side preview functionality 
 
 Silverstripe 3.1
 
-## Features
-
-- Preview for Data Objects
-
 ## Install
 
 - Install the module into the SilverStripe root
@@ -26,13 +22,9 @@ Silverstripe 3.1
   - see https://github.com/jotham/silverstripe-dataobject-preview/blob/master/example_files/PreviewPage.ss
 - run /dev/build and ?flush=all
 
-## Trouble Shooting
+## Troubleshooting
 
 - Make sure your PreviewableDataObject has defined $preview_page to match the name of your Preview Page controller
-
-## Usage
-
-You should see the preview panel when editing the details of your DataObject through the ModelAdmin GridField.
 
 ## Changelog
 
