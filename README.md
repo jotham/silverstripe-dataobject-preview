@@ -12,19 +12,19 @@ Silverstripe 3.1
 
 ## Install
 
-- Install the module into the SilverStripe root
-- Create a DataObject that extends PreviewableDataObject
+- Install the module into the SilverStripe root.
+- Create a DataObject that extends PreviewableDataObject.
   - see https://github.com/jotham/silverstripe-dataobject-preview/blob/master/example_files/ExampleObject.php
-- Create a ModelAdmin that manages your DataObject
-- Create a Page + Page Controller to render your DataObject preview
+- Create a ModelAdmin that manages your DataObject.
+- Create a Page + Page Controller to render your DataObject preview.
   - see https://github.com/jotham/silverstripe-dataobject-preview/blob/master/example_files/PreviewPage.php
-- Create a Template for your Preview Page
+- Create a Template for your Preview Page.
   - see https://github.com/jotham/silverstripe-dataobject-preview/blob/master/example_files/PreviewPage.ss
-- run /dev/build and ?flush=all
+- Run /dev/build and ?flush=all
 
 ## Troubleshooting
 
-- Make sure your PreviewableDataObject has defined $preview_page to match the name of your Preview Page controller
+- Make sure your DataObject has defined $preview_page.
 
 ## Changelog
 
