@@ -1,10 +1,10 @@
 # silverstripe-dataobject-preview
 
-A module for Silverstripe 3.0 that adds creates a DataObject with a preview panel much like the page editor.
+A module for Silverstripe 3.1 that adds creates a DataObject with a preview panel much like the page editor.
 
 ## Requirements
 
-Silverstripe 3.0
+Silverstripe 3.1 (Older versions lack the CMS support)
 
 ## Features
 
