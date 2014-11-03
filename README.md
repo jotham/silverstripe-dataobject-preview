@@ -8,7 +8,7 @@ Activates (most) of the new Silverstripe 3.1 side-by-side preview functionality 
 
 ## Requirements
 
-Silverstripe 3.1
+- Silverstripe 3.1
 
 ## Install
 
