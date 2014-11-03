@@ -52,7 +52,6 @@ class PreviewableDataObject extends DataObject implements CMSPreviewable {
    }
 
    public function getAllCMSActions(){
-      tracef();
       return new FieldList();
    }
 
