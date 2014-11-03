@@ -1,6 +1,6 @@
 # SilverStripe 3.1 DataObject Preview
 
-Activates (most) of the new Silverstripe 3.1 side-by-side preview functionality for use with DataObjects. 
+Activates some of the new Silverstripe 3.1 side-by-side preview functionality for use with DataObjects. 
 
 - http://doc.silverstripe.org/framework/en/reference/preview.
 
