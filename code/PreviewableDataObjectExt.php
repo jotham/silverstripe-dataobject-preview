@@ -10,6 +10,7 @@ class PreviewableDataObjectExt extends Extension {
    }
 
    private function injectNavigatorAndPreview(&$form, &$fields){
+      tracef();
       $editForm = $fields->fieldByName('EditForm');
       //TODO: Do we need to verify we are in the right controller?
       $template = Controller::curr()->getTemplatesWithSuffix('_SilverStripeNavigator');
@@ -18,6 +19,7 @@ class PreviewableDataObjectExt extends Extension {
       $field->setAllowHTML(true);
       $fields->push($field);
       $form->addExtraClass('cms-previewable');
+      $form->addExtraClass(' cms-previewabledataobject');
       $form->removeExtraClass('cms-panel-padded center');
    }
 

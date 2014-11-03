@@ -48,5 +48,10 @@ class PreviewableDataObject extends DataObject implements CMSPreviewable {
       return array($cls, $controller_cls);
    }
 
+   public function getAllCMSActions(){
+      tracef();
+      return new FieldList();
+   }
+
 }
 

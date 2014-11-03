@@ -7,3 +7,6 @@ After:
 PreviewableDataObject:
   extensions:
     - Versioned("Stage","Live")
+#ModelAdmin:
+#  extra_requirements_javascript:
+#    - dataobject-preview/javascript/PDOLeftAndMain.Preview.js
