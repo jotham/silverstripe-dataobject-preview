@@ -2,7 +2,7 @@
 
 A module for Silverstripe 3.1 that adds creates a DataObject with a preview panel much like the page editor.
 
-![screenshot_plugin](https://cloud.githubusercontent.com/assets/247139/4880517/674f181a-633c-11e4-8bf5-b89c2bebfb84.jpg)
+![screenshot_plugin](https://cloud.githubusercontent.com/assets/247139/4880595/5eb2c5ac-633d-11e4-86c0-c207d85f7be9.jpg)
 
 ## Requirements
 
