@@ -13,10 +13,13 @@ Activates some of the new Silverstripe 3.1 side-by-side preview functionality fo
 ## Install
 
 1. Install the module into the SilverStripe root.
-2. Create a DataObject that extends PreviewableDataObject. See  [example_files/ExampleObject.php](https://github.com/jotham/silverstripe-dataobject-preview/blob/master/example_files/ExampleObject.php)
+2. Create a DataObject that extends PreviewableDataObject.
+   - [example_files/ExampleObject.php](https://github.com/jotham/silverstripe-dataobject-preview/blob/master/example_files/ExampleObject.php)
 3. Create a ModelAdmin that manages your DataObject.
-4. Create a Page + Page Controller to render your DataObject preview. See  [example_files/PreviewPage.php](https://github.com/jotham/silverstripe-dataobject-preview/blob/master/example_files/PreviewPage.php)
-5. Create a Template for your Preview Page. See  [example_files/PreviewPage.ss](https://github.com/jotham/silverstripe-dataobject-preview/blob/master/example_files/PreviewPage.ss)
+4. Create a Page + Page Controller to render your DataObject preview.
+   - [example_files/PreviewPage.php](https://github.com/jotham/silverstripe-dataobject-preview/blob/master/example_files/PreviewPage.php)
+5. Create a Template for your Preview Page.
+   - [example_files/PreviewPage.ss](https://github.com/jotham/silverstripe-dataobject-preview/blob/master/example_files/PreviewPage.ss)
 6. Run /dev/build and ?flush=all
 
 ## Troubleshooting
