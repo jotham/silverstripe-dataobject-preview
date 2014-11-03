@@ -1,6 +1,8 @@
-# Silverstripe 3.1 DataObject CMS Preview
+# Silverstripe 3.1 DataObject Side-by-side Preview
 
-A module for Silverstripe 3.1 that adds creates a DataObject with a preview panel much like the page editor.
+Activates (most) of the new Silverstripe 3.1 Side-by-side Preview functionality for use with DataObjects. 
+
+- http://doc.silverstripe.org/framework/en/reference/preview.
 
 ![screenshot_plugin](https://cloud.githubusercontent.com/assets/247139/4880595/5eb2c5ac-633d-11e4-86c0-c207d85f7be9.jpg)
 
@@ -10,7 +12,7 @@ Silverstripe 3.1 (Older versions lack the CMS support)
 
 ## Features
 
-- Mostly works
+- Preview for Data Objects
 
 ## Install
 
