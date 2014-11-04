@@ -28,8 +28,6 @@ Activates some of the new Silverstripe 3.1 side-by-side preview functionality fo
 
 ## Todo
 
-- Make an Extension so you don't have to migrate your existing DataObjects
-- Fix up Versioning
-
-## Changelog
+- Make an Extension so you don't have to migrate your existing DataObjects.
+- Fix up Versioning.
 
