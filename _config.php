@@ -1,7 +1,5 @@
 <?PHP
 
-Object::add_extension('GridFieldDetailForm_ItemRequest', 'PreviewableDataObjectExt');
-
 // TODO: We should be able to do this through the YAML instead of this hack?
 $module_prefix = basename(__DIR__);
 $items = Config::inst()->get('ModelAdmin', 'extra_requirements_javascript');

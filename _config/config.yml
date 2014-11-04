@@ -3,7 +3,4 @@ Name: dataobject-preview
 After:
   - 'framework/*'
   - 'cms/*'
----
-PreviewableDataObject:
-  extensions:
-    - Versioned("Stage","Live")
+

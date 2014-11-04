@@ -1,0 +1,10 @@
+---
+Name: extensions
+---
+PreviewableDataObject:
+  extensions:
+    - Versioned("Stage","Live")
+GridFieldDetailForm_ItemRequest:
+  extensions:
+    - PreviewableDataObjectExt
+
