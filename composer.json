@@ -1,0 +1,20 @@
+{
+   "name": "jotham/silverstripe-dataobject-preview",
+      "description": "Activates some of the new Silverstripe 3.1 side-by-side preview functionality for use with DataObjects.",
+      "type": "silverstripe-module",
+      "homepage": "https://github.com/jotham/silverstripe-dataobject-preview",
+      "keywords": ["silverstripe", "preview", "dataobject"],
+      "license": "MIT",
+      "authors": [
+        {"name": "Jotham Read","email": "jotham.read@gmail.com"}
+      ],
+      "support": {
+         "issues": "https://github.com/jotham/silverstripe-dataobject-preview/issues"
+      },
+      "require": {
+         "silverstripe/cms": "~3.1",
+         "silverstripe/framework": "~3.1"
+      },
+      "extra": {
+      }
+}
