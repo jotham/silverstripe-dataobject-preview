@@ -9,7 +9,7 @@
    }
    $.entwine('ss.preview', function($){
       $('.cms-container').entwine().on('afterstatechange', patchInterface);
-      /*$('.cms-preview').entwine().on('afterIframeAdjustedForPreview', patchInterface);*/
+      $('.cms-preview').entwine().on('afterIframeAdjustedForPreview', patchInterface);
       patchInterface();
    });
 }(jQuery));

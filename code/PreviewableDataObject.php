@@ -8,12 +8,12 @@ class PreviewableDataObject extends DataObject implements CMSPreviewable {
     */
    static $preview_page = '[PreviewPage]';
 
-   public function PreviewLink(){
+   public function PreviewLink($action = null){
       /*
        * This is the link we show in the CMS Preview panel
        */
       list($page_cls, $controller_cls) = $this->getPreviewClasses();
-      return $controller_cls::getPreviewAction($page_cls::get()->First(), $this);
+      return singleton($controller_cls)->getPreviewAction($page_cls::get()->First(), $this);
    }
 
    public function CMSEditLink(){
@@ -52,7 +52,6 @@ class PreviewableDataObject extends DataObject implements CMSPreviewable {
    }
 
    public function getAllCMSActions(){
-      tracef();
       return new FieldList();
    }
 
