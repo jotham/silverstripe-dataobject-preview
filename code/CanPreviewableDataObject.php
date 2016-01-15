@@ -1,7 +1,8 @@
 <?PHP
 
-interface CanPreviewableDataObject {
-   /*
+interface CanPreviewableDataObject
+{
+    /*
     * Return the Link to display the PreviewableDataObject
     *
     * @param SiteTree $page First SiteTree object we found for this controller
@@ -15,4 +16,3 @@ interface CanPreviewableDataObject {
     */
    public function getPreviewAction(SiteTree $page, PreviewableDataObject $obj);
 }
-
